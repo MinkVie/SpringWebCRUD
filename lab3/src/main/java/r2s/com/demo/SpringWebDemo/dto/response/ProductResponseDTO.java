@@ -10,10 +10,16 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ProductResponseDTO implements Serializable {
+
     private int id;
+
     private String name;
+
     private long price;
+
     private String salerName;
+
     private boolean isDeleted;
+
     private int categoryId;
 }

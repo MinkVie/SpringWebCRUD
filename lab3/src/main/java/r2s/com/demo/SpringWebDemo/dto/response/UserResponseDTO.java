@@ -10,12 +10,20 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UserResponseDTO implements Serializable {
+
     private int id;
+
     private String username;
+
     private String name;
+
     private String password;
+
     private String phone;
+
     private String gender;
+
     private String email;
+
     private Date birthday;
 }

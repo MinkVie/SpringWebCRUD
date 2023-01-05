@@ -10,6 +10,8 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UpdateCartRequestDTO implements Serializable {
+
     private int id;
+
     private int userId;
 }

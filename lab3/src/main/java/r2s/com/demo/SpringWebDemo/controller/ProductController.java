@@ -27,22 +27,4 @@ public class ProductController {
         return new ResponseEntity(product, HttpStatus.OK);
     }
 
-
-//    @PutMapping("/{product-id}")
-//    public ResponseEntity updateProduct(@PathVariable(value = "product-id") int productId,
-//                                        @RequestBody UpdateProductRequestDTO updateProductRequestDTO) {
-//        ProductResponseDTO response = new ProductResponseDTO();
-//        response.setId(productId);
-//        response.setName(updateProductRequestDTO.getName());
-//        response.setPrice(updateProductRequestDTO.getPrice());
-//        response.setCategoryId(updateProductRequestDTO.getCategoryId());
-//        response.setSalerName(updateProductRequestDTO.getSalerName());
-//        response.setDeleted(updateProductRequestDTO.isDeleted());
-//        return new ResponseEntity(response, HttpStatus.OK);
-//    }
-//
-//    @DeleteMapping("/{product-id}")
-//    public ResponseEntity deleteProduct(@PathVariable(value = "product-id") int productId) {
-//        return new ResponseEntity(HttpStatus.NO_CONTENT);
-//    }
 }

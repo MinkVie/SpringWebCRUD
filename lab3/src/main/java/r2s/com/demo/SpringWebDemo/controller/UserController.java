@@ -28,27 +28,4 @@ public class UserController {
         return new ResponseEntity(user, HttpStatus.OK);
     }
 
-
-
-//    @PutMapping("/{user-id}")
-//    public ResponseEntity updateUser(@PathVariable(value = "user-id") int userId,
-//                                     @RequestBody UpdateUserRequestDTO updateUserRequestDTO) {
-//        UserResponseDTO response = new UserResponseDTO();
-//        response.setId(userId);
-//        response.setUsername(updateUserRequestDTO.getUsername());
-//        response.setName(updateUserRequestDTO.getName());
-//        response.setEmail(updateUserRequestDTO.getEmail());
-//        response.setPhone(updateUserRequestDTO.getPhone());
-//        response.setGender(updateUserRequestDTO.getGender());
-//        response.setPassword(updateUserRequestDTO.getPassword());
-//        response.setBirthday(updateUserRequestDTO.getBirthday());
-//
-//        return new ResponseEntity(response, HttpStatus.OK);
-//    }
-//
-//    @DeleteMapping("/{user-id}")
-//    public ResponseEntity deleteUser(@PathVariable(value = "user-id") int userId) {
-//        return new ResponseEntity(HttpStatus.NO_CONTENT);
-//    }
-
 }

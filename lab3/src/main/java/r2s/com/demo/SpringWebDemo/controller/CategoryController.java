@@ -27,19 +27,4 @@ public class CategoryController {
         return new ResponseEntity(category, HttpStatus.OK);
     }
 
-
-//    @PutMapping("/{category-id}")
-//    public ResponseEntity updateCategory(@PathVariable(value = "category-id") int categoryId,
-//                                         @RequestBody UpdateProductRequestDTO updateProductRequestDTO) {
-//        CategoryResponseDTO response = new CategoryResponseDTO();
-//        response.setId(categoryId);
-//        response.setName(updateProductRequestDTO.getName());
-//
-//        return new ResponseEntity(response, HttpStatus.OK);
-//    }
-//
-//    @DeleteMapping("/{category-id}")
-//    public ResponseEntity deleteCategory(@PathVariable(value = "category-id") int categoryId) {
-//        return new ResponseEntity(HttpStatus.NO_CONTENT);
-//    }
 }

@@ -11,6 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PagingProductListResponseDTO implements Serializable {
+
     private List<ProductResponseDTO> productResponseDTOList;
 
     private Integer size;

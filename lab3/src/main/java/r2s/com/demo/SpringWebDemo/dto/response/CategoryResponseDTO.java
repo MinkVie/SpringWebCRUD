@@ -10,6 +10,8 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CategoryResponseDTO implements Serializable {
+
     private int id;
+
     private String name;
 }

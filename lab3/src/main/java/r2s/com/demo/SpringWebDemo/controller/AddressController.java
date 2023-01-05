@@ -28,27 +28,4 @@ public class AddressController {
         return new ResponseEntity(address, HttpStatus.OK);
     }
 
-
-
-//    @PutMapping("/{address-id}")
-//    public ResponseEntity updateAddress(@PathVariable(value = "address-id") int addressId,
-//                                        @RequestBody UpdateAddressRequestDTO updateAddressRequestDTO) {
-//        AddressResponseDTO response = new AddressResponseDTO();
-//        response.setId(addressId);
-//        response.setName(updateAddressRequestDTO.getName());
-//        response.setPhone(updateAddressRequestDTO.getPhone());
-//        response.setProvince(updateAddressRequestDTO.getProvince());
-//        response.setDistrict(updateAddressRequestDTO.getDistrict());
-//        response.setStreet(updateAddressRequestDTO.getStreet());
-//        response.setType(updateAddressRequestDTO.isType());
-//        response.setDefaultAddress(updateAddressRequestDTO.isDefaultAddress());
-//        response.setAddressId(updateAddressRequestDTO.getAddressId());
-//
-//        return new ResponseEntity(response, HttpStatus.OK);
-//    }
-//
-//    @DeleteMapping("/{address-id}")
-//    public ResponseEntity deleteAddress(@PathVariable(value = "address-id") int addressId) {
-//        return new ResponseEntity(HttpStatus.NO_CONTENT);
-//    }
 }

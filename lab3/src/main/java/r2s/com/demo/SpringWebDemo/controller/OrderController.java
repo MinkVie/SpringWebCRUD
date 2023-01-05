@@ -27,22 +27,4 @@ public class OrderController {
         return new ResponseEntity(order, HttpStatus.OK);
     }
 
-
-//    @PutMapping("/{order-id}")
-//    public ResponseEntity updateOrder(@PathVariable(value = "order-id") int orderId,
-//                                      @RequestBody UpdateOrderRequestDTO updateOrderRequestDTO) {
-//        OrderResponseDTO response = new OrderResponseDTO();
-//        response.setId(orderId);
-//        response.setCartId(updateOrderRequestDTO.getCartId());
-//        response.setStatus(updateOrderRequestDTO.isStatus());
-//        response.setOrderDate(updateOrderRequestDTO.getOrderDate());
-//        response.setTotalPay(updateOrderRequestDTO.getTotalPay());
-//
-//        return new ResponseEntity(response, HttpStatus.OK);
-//    }
-//
-//    @DeleteMapping("/{order-id}")
-//    public ResponseEntity deleteOrder(@PathVariable(value = "order-id") int orderId) {
-//        return new ResponseEntity(HttpStatus.NO_CONTENT);
-//    }
 }

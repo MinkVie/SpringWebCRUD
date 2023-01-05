@@ -10,6 +10,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class PagingOrderListResponseDTO implements Serializable {
+
     private List<OrderResponseDTO> orderResponseDTOList;
 
     private Integer size;
